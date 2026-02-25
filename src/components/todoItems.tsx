@@ -24,7 +24,7 @@ const TodoItems = ({todo , ondelete , isSelected , onToggleSelect}:Props) => {
                 checked={isSelected}
                 onChange={()=>(onToggleSelect(todo.id))} 
                 />
-                <span className="text-md font-bold">
+                <span className="text-sm sm:text-md font-bold wrap-break-word">
                     <span>
                         {todo.texte}
                     </span>

@@ -87,7 +87,7 @@ export const Bare = ()=>{
 
     return(
         <>
-        <div className="flex gap-4">
+        <div className="flex flex-col sm:flex-row gap-3">
             <input 
                 type="text"
                 className="input w-full"
